@@ -1,0 +1,27 @@
+<div class="app-heading-group">
+  <h1 class="app-panel-heading">Profile List</h1>
+  <div class="app-heading-group__actions-container">
+    <button class="app-button" (click)="select.emit({ })">
+      Create
+    </button>
+  </div>
+</div>
+
+<table mat-table [dataSource]="dataSource" class="app-table">
+
+  <ng-container matColumnDef="name">
+    <th mat-header-cell *matHeaderCellDef> Name </th>
+    <td mat-cell *matCellDef="let profile" (click)="select.emit(profile)" class="app-router-link-cell"> {{ profile.name }}</td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let profile; columns: displayedColumns;"></tr>
+
+</table>
+
+<!-- <mat-paginator class="app-paginator"
+  showFirstLastButtons
+  [pageSizeOptions]="pageSizeOptions">
+</mat-paginator> -->
+
+<app-paginator [pageSizeOptions]="pageSizeOptions"></app-paginator>

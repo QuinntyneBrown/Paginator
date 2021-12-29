@@ -1,0 +1,18 @@
+<ng-container *ngIf="vm$ | async as vm">
+
+  <app-page-size-options [pageSizeOptions]="pageSizeOptions" (pageSizeOptionClick)="changePageSize($event)"></app-page-size-options>
+
+<div class="paginator__container">
+  <mat-icon (click)="handlePreviousPage()">
+    chevron_left
+  </mat-icon>
+
+  <span  *ngFor="let page of vm.pages" (click)="handlePageClick(page)"> {{ page }} </span>
+
+  <mat-icon (click)="handleNextPage()">
+    chevron_right
+  </mat-icon>
+
+</div>
+
+</ng-container>

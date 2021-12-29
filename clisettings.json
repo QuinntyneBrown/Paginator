@@ -1,0 +1,16 @@
+{
+  "domainNamespace": "Paginator.Api",
+  "applicationNamespace": "Paginator.Api",
+  "infrastructureNamespace": "Paginator.Api",
+  "apiNamespace": "Paginator.Api",
+  "domainDirectory": "C:\\Projects\\Paginator\\src\\Paginator.Api",
+  "applicationDirectory": "C:\\Projects\\Paginator\\src\\Paginator.Api",
+  "infrastructureDirectory": "C:\\Projects\\Paginator\\src\\Paginator.Api",
+  "apiDirectory": "C:\\Projects\\Paginator\\src\\Paginator.Api",
+  "path": "C:\\Projects\\Paginator",
+  "dbContext": "PaginatorDbContext",
+  "sourceFolder": "src",
+  "resources": [
+    "Profile"
+  ]
+}

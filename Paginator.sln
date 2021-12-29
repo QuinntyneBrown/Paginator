@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FC7760C1-A673-4069-B5AA-A6E7B4BE5A62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paginator.Api", "src\Paginator.Api\Paginator.Api.csproj", "{734DAEC2-3187-4A9E-8C26-CD41E28DAA78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{734DAEC2-3187-4A9E-8C26-CD41E28DAA78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{734DAEC2-3187-4A9E-8C26-CD41E28DAA78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{734DAEC2-3187-4A9E-8C26-CD41E28DAA78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{734DAEC2-3187-4A9E-8C26-CD41E28DAA78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{734DAEC2-3187-4A9E-8C26-CD41E28DAA78} = {FC7760C1-A673-4069-B5AA-A6E7B4BE5A62}
+	EndGlobalSection
+EndGlobal

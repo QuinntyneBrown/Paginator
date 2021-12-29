@@ -1,0 +1,12 @@
+:host {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  width: 100%;
+  box-sizing: border-box;
+
+  .paginator__container {
+    display: flex;
+    place-items: center center;
+    grid-column: 3;
+  }
+}

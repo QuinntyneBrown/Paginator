@@ -1,0 +1,4 @@
+<div appListDetail *ngIf="vm$ | async as vm">
+  <app-profile-list [profiles]="vm.profiles" (select)="handleSelect($event)"></app-profile-list>
+  <app-profile-detail [profile]="vm.selected" (save)="handleSave($event)"></app-profile-detail>
+</div>
